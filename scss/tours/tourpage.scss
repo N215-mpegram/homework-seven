@@ -1,0 +1,210 @@
+.tour-page {
+    max-width: $content-width;
+    // background-color: antiquewhite;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    .tp-header {
+        // background-color: darkolivegreen;
+        @include tour-page-header();
+
+        .tp-header-font {
+            font-family: GScond;
+            font-size: 80px;
+            padding-top: 18px;
+            padding-left: 30px;
+            color: $site-white;
+        }
+
+        .tp-disclaimer-font {
+            font-family: GScond;
+            font-size: 30px;
+            color: $site-white;
+            position: absolute;
+            right: 5px;
+            bottom: -10px;
+        }
+    }
+    .israel-header {
+        @include add-background-image("../images/tour-01.jpg")
+    }
+    .usa-header {
+        @include add-background-image("../images/tour-02.jpg")
+    }
+    .aus-header {
+        @include add-background-image("../images/tour-03.jpg")
+    }
+    .nz-header {
+        @include add-background-image("../images/tour-04.jpg")
+    }
+    .france-header {
+        @include add-background-image("../images/tour-05.jpg")
+    }
+    .egypt-header {
+        @include add-background-image("../images/tour-06.jpg")
+    }
+    .japan-header {
+        @include add-background-image("../images/tour-07.jpg")
+    }        
+    .canada-header {
+        @include add-background-image("../images/tour-08.jpg")
+    }
+    .uae-header {
+        @include add-background-image("../images/tour-09.jpg")
+    }
+
+
+    .tp-images {
+        // background-color: darkseagreen;
+        min-height: 100px;
+        // margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .tp-box {
+            @include tour-page-box();
+            margin-top: 40px;
+        }
+
+        .t-israel-1 {
+            @include tour-page-images("../images/tour-israel/israel-tour-01.jpg")
+        }
+        .t-israel-2 {
+            @include tour-page-images("../images/tour-israel/israel-tour-02.jpg")
+        }
+        .t-israel-3 {
+            @include tour-page-images("../images/tour-israel/israel-tour-03.jpg")
+        }
+        .t-usa-1 {
+            @include tour-page-images("../images/tour-usa/usa-tour-01.jpg")
+        }
+        .t-usa-2 {
+            @include tour-page-images("../images/tour-usa/usa-tour-02.jpg")
+        }
+        .t-usa-3 {
+            @include tour-page-images("../images/tour-usa/usa-tour-03.jpg")
+        }
+        .t-aus-1 {
+            @include tour-page-images("../images/tour-aus/aus-tour-01.jpg")
+        }
+        .t-aus-2 {
+            @include tour-page-images("../images/tour-aus/aus-tour-02.jpg")
+        }
+        .t-aus-3 {
+            @include tour-page-images("../images/tour-aus/aus-tour-03.jpg")
+        }
+        .t-nz-1 {
+            @include tour-page-images("../images/tour-nz/nz-tour-01.jpg")
+        }
+        .t-nz-2 {
+            @include tour-page-images("../images/tour-nz/nz-tour-02.jpg")
+        }
+        .t-nz-3 {
+            @include tour-page-images("../images/tour-nz/nz-tour-03.jpg")
+        }
+        .t-france-1 {
+            @include tour-page-images("../images/tour-france/france-tour-01.jpg")
+        }
+        .t-france-2 {
+            @include tour-page-images("../images/tour-france/france-tour-02.jpg")
+        }
+        .t-france-3 {
+            @include tour-page-images("../images/tour-france/france-tour-03.jpg")
+        }
+        .t-egypt-1 {
+            @include tour-page-images("../images/tour-egypt/egypt-tour-01.jpg")
+        }
+        .t-egypt-2 {
+            @include tour-page-images("../images/tour-egypt/egypt-tour-02.jpg")
+        }
+        .t-egypt-3 {
+            @include tour-page-images("../images/tour-egypt/egypt-tour-03.jpg")
+        }
+        .t-japan-1 {
+            @include tour-page-images("../images/tour-japan/japan-tour-01.jpg")
+        }
+        .t-japan-2 {
+            @include tour-page-images("../images/tour-japan/japan-tour-02.jpg")
+        }
+        .t-japan-3 {
+            @include tour-page-images("../images/tour-japan/japan-tour-03.jpg")
+        }
+        .t-canada-1 {
+            @include tour-page-images("../images/tour-canada/canada-tour-01.jpg")
+        }
+        .t-canada-2 {
+            @include tour-page-images("../images/tour-canada/canada-tour-02.jpg")
+        }
+        .t-canada-3 {
+            @include tour-page-images("../images/tour-canada/canada-tour-03.jpg")
+        }
+        .t-uae-1 {
+            @include tour-page-images("../images/tour-uae/uae-tour-01.jpg")
+        }
+        .t-uae-2 {
+            @include tour-page-images("../images/tour-uae/uae-tour-02.jpg")
+        }
+        .t-uae-3 {
+            @include tour-page-images("../images/tour-uae/uae-tour-03.jpg")
+        }
+    }
+
+    .days {
+        min-height: 600px;
+        // background-color: lightsalmon;
+        margin-top: 30px;
+
+        .day {
+            // background-color: darkgrey;
+            margin-bottom: 70px;
+
+            .day-line {
+                border-bottom: 3px solid $site-black;
+                width: 180px;
+                margin-top: -15px;
+                margin-bottom: 35px;
+            }
+            .days-header-font {
+                font-family: PnCONthin;
+                font-size: 60px;
+                color: $site-black;
+            }
+            .days-para-font {
+                font-family: GSmedreg;
+                font-size: 16px;
+                color: $site-black;
+                margin-left: 3px;
+                margin-right: 3px;
+            }
+        }
+    }
+
+    .tp-button {
+        height: 40px;
+        width: 133px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: $site-blue;
+        border-radius: 30px;
+        margin: auto;
+        margin-bottom: 100px;
+    
+        a {
+            text-decoration: none;
+            color: $site-white;
+        }
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .tour-page {
+        width: 90%;
+    
+        .tp-images {
+            flex-direction: column;
+            }
+}
+}
