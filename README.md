@@ -1,7 +1,7 @@
-# Homework 6 Repo
+# Homework 7 Repo
 
-This is my homework-six repo for N215.
+This is my homework-seven repo for N215.
 
-## Underneath is my hw6 link
+## Underneath is my hw7 link
 
-https://in-info-web4.informatics.iupui.edu/~mpegram/N215/homework-six/tours.html
+https://in-info-web4.informatics.iupui.edu/~mpegram/N215/homework-seven/specialoffers.html
