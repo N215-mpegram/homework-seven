@@ -1,0 +1,115 @@
+.special-offers { 
+    width: $content-width;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 180px;
+
+    .so-title {
+        width: $content-width;
+        min-height: 30px;
+
+        .so-title-font {
+            width: 199px;
+            height: 53px;
+            border-bottom: 2px solid #000;
+            color: #000;
+            font-size: 38px;
+            font-family: GScond;
+        }
+    }
+
+    .spoffers-box {
+        width: 510px;
+        min-height: 337px;
+        background-color: antiquewhite;
+        margin-top: 37px;
+
+        .SO-quotes-font {
+            font-size: 16px;
+            font-family: GSlight;
+        }
+
+
+        .SO-p1 {
+            width: 510px;
+            min-height: 150px;
+            background-color: burlywood;
+            display: flex;
+            // align-items: center;
+            justify-content: space-between;
+
+            .SO-p1-img {
+                width: 199px;
+                height: 287px;
+                background-image: url(../images/special-offer-01.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .SO-p-quote {
+                background-color: aqua;
+
+                .SO-location {
+                    background-color: seagreen;
+                    display: flex;
+                    margin-bottom: 20px;  
+                    position: relative;      
+        
+                    .SO-place {
+                        width: 165px;
+                        height: 40px;
+                        border-bottom: 2px solid #000;
+                        color: #000;
+                        font-size: 30px;
+                        font-family: GScond;
+                    }
+        
+                    .SO-perOff {
+                        height: 24px;
+                        width: 60px;
+                        font-size: 20px;
+                        font-family: GScond;
+                        color: $site-orange;
+                        position: absolute;
+                        left: 177px;
+                        top: 7px;
+                        // background-color: cornflowerblue;
+                    }
+                }
+
+                .SO-quotes-font {
+                    width: 285px;
+                    background-color: deepskyblue;
+                    height: 120px;
+                }
+                
+            }
+        }
+
+        // .SO-p2 {
+        //     width: 670px;
+        //     height: 150px;
+        //     background-color: burlywood;
+        //     position: relative;
+        //     margin-top: 60px;
+
+        //     .SO-p2-img {
+        //         width: 199px;
+        //         height: 287px;
+        //         background-image: url(../images/special-offer-02.jpg);
+        //         background-position: center;
+        //         background-repeat: no-repeat;
+        //         background-size: cover;
+        //     }
+
+        //     .SO-p-quote {
+        //         width: 385px;
+        //         position: absolute;
+        //         top: 0px;
+        //         right: 0px;
+        //     }
+        // }
+
+    }
+}

@@ -1428,5 +1428,80 @@ footer .footer-content .socials .socialIcons {
     flex-direction: column;
   }
 }
+.special-offers {
+  width: 980px;
+  margin: auto;
+  margin-top: 110px;
+  margin-bottom: 180px;
+}
+.special-offers .so-title {
+  width: 980px;
+  min-height: 30px;
+}
+.special-offers .so-title .so-title-font {
+  width: 199px;
+  height: 53px;
+  border-bottom: 2px solid #000;
+  color: #000;
+  font-size: 38px;
+  font-family: GScond;
+}
+.special-offers .spoffers-box {
+  width: 510px;
+  min-height: 337px;
+  background-color: antiquewhite;
+  margin-top: 37px;
+}
+.special-offers .spoffers-box .SO-quotes-font {
+  font-size: 16px;
+  font-family: GSlight;
+}
+.special-offers .spoffers-box .SO-p1 {
+  width: 510px;
+  min-height: 150px;
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-between;
+}
+.special-offers .spoffers-box .SO-p1 .SO-p1-img {
+  width: 199px;
+  height: 287px;
+  background-image: url(../images/special-offer-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.special-offers .spoffers-box .SO-p1 .SO-p-quote {
+  background-color: aqua;
+}
+.special-offers .spoffers-box .SO-p1 .SO-p-quote .SO-location {
+  background-color: seagreen;
+  display: flex;
+  margin-bottom: 20px;
+  position: relative;
+}
+.special-offers .spoffers-box .SO-p1 .SO-p-quote .SO-location .SO-place {
+  width: 165px;
+  height: 40px;
+  border-bottom: 2px solid #000;
+  color: #000;
+  font-size: 30px;
+  font-family: GScond;
+}
+.special-offers .spoffers-box .SO-p1 .SO-p-quote .SO-location .SO-perOff {
+  height: 24px;
+  width: 60px;
+  font-size: 20px;
+  font-family: GScond;
+  color: #FF7D38;
+  position: absolute;
+  left: 177px;
+  top: 7px;
+}
+.special-offers .spoffers-box .SO-p1 .SO-p-quote .SO-quotes-font {
+  width: 285px;
+  background-color: deepskyblue;
+  height: 120px;
+}
 
 /*# sourceMappingURL=styles.css.map */
