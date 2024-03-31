@@ -1,5 +1,5 @@
 .special-offers { 
-    width: $content-width;
+    max-width: $content-width;
     margin: auto;
     margin-top: 110px;
     margin-bottom: 100px;
@@ -168,6 +168,37 @@
                     left: 0;
                     border-radius: 30px;
                 }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .special-offers {
+        max-width: 90%;
+    }
+}
+
+@media all and (max-width: 570px) {
+    .special-offers {
+        max-width: 90%;
+
+        .SO-p1 {
+            flex-direction: column;
+            // background-color: cadetblue;
+            height: 550px;
+
+            .SO-quotes-font {
+                margin-bottom: 60px;
+            }
+        }
+        .SO-p2 {
+            flex-direction: column;
+            // background-color: cadetblue;
+            height: 550px;
+
+            .SO-quotes-font {
+                margin-bottom: 60px;
             }
         }
     }

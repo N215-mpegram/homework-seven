@@ -1429,7 +1429,7 @@ footer .footer-content .socials .socialIcons {
   }
 }
 .special-offers {
-  width: 980px;
+  max-width: 980px;
   margin: auto;
   margin-top: 110px;
   margin-bottom: 100px;
@@ -1567,6 +1567,31 @@ footer .footer-content .socials .socialIcons {
   bottom: 0;
   left: 0;
   border-radius: 30px;
+}
+
+@media all and (max-width: 1000px) {
+  .special-offers {
+    max-width: 90%;
+  }
+}
+@media all and (max-width: 570px) {
+  .special-offers {
+    max-width: 90%;
+  }
+  .special-offers .SO-p1 {
+    flex-direction: column;
+    height: 550px;
+  }
+  .special-offers .SO-p1 .SO-quotes-font {
+    margin-bottom: 60px;
+  }
+  .special-offers .SO-p2 {
+    flex-direction: column;
+    height: 550px;
+  }
+  .special-offers .SO-p2 .SO-quotes-font {
+    margin-bottom: 60px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
