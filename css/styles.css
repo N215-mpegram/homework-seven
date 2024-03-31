@@ -1432,7 +1432,7 @@ footer .footer-content .socials .socialIcons {
   width: 980px;
   margin: auto;
   margin-top: 110px;
-  margin-bottom: 180px;
+  margin-bottom: 100px;
 }
 .special-offers .so-title {
   width: 980px;
@@ -1449,7 +1449,6 @@ footer .footer-content .socials .socialIcons {
 .special-offers .spoffers-box {
   width: 510px;
   min-height: 337px;
-  background-color: antiquewhite;
   margin-top: 37px;
 }
 .special-offers .spoffers-box .SO-quotes-font {
@@ -1459,7 +1458,6 @@ footer .footer-content .socials .socialIcons {
 .special-offers .spoffers-box .SO-p1 {
   width: 510px;
   min-height: 150px;
-  background-color: burlywood;
   display: flex;
   justify-content: space-between;
 }
@@ -1472,10 +1470,9 @@ footer .footer-content .socials .socialIcons {
   background-size: cover;
 }
 .special-offers .spoffers-box .SO-p1 .SO-p-quote {
-  background-color: aqua;
+  position: relative;
 }
 .special-offers .spoffers-box .SO-p1 .SO-p-quote .SO-location {
-  background-color: seagreen;
   display: flex;
   margin-bottom: 20px;
   position: relative;
@@ -1500,8 +1497,76 @@ footer .footer-content .socials .socialIcons {
 }
 .special-offers .spoffers-box .SO-p1 .SO-p-quote .SO-quotes-font {
   width: 285px;
-  background-color: deepskyblue;
   height: 120px;
+}
+.special-offers .spoffers-box .SO-p1 .SO-p-quote .SO-learn-more {
+  width: 122px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #79ADDC;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 30px;
+}
+.special-offers .spoffers-box .SO-p2 {
+  width: 510px;
+  min-height: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.special-offers .spoffers-box .SO-p2 .SO-p2-img {
+  width: 199px;
+  height: 287px;
+  background-image: url(../images/special-offer-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.special-offers .spoffers-box .SO-p2 .SO-p-quote {
+  position: relative;
+}
+.special-offers .spoffers-box .SO-p2 .SO-p-quote .SO-location {
+  display: flex;
+  margin-bottom: 20px;
+  position: relative;
+}
+.special-offers .spoffers-box .SO-p2 .SO-p-quote .SO-location .SO2-place {
+  width: 178px;
+  height: 40px;
+  border-bottom: 2px solid #000;
+  color: #000;
+  font-size: 30px;
+  font-family: GScond;
+}
+.special-offers .spoffers-box .SO-p2 .SO-p-quote .SO-location .SO-perOff2 {
+  height: 24px;
+  width: 60px;
+  font-size: 20px;
+  font-family: GScond;
+  color: #FF7D38;
+  position: absolute;
+  left: 190px;
+  top: 7px;
+}
+.special-offers .spoffers-box .SO-p2 .SO-p-quote .SO-quotes-font {
+  width: 285px;
+  height: 120px;
+}
+.special-offers .spoffers-box .SO-p2 .SO-p-quote .SO-learn-more {
+  width: 122px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #79ADDC;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */

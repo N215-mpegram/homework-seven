@@ -2,7 +2,7 @@
     width: $content-width;
     margin: auto;
     margin-top: 110px;
-    margin-bottom: 180px;
+    margin-bottom: 100px;
 
     .so-title {
         width: $content-width;
@@ -21,7 +21,7 @@
     .spoffers-box {
         width: 510px;
         min-height: 337px;
-        background-color: antiquewhite;
+        // background-color: antiquewhite;
         margin-top: 37px;
 
         .SO-quotes-font {
@@ -33,7 +33,7 @@
         .SO-p1 {
             width: 510px;
             min-height: 150px;
-            background-color: burlywood;
+            // background-color: burlywood;
             display: flex;
             // align-items: center;
             justify-content: space-between;
@@ -48,10 +48,11 @@
             }
             
             .SO-p-quote {
-                background-color: aqua;
+                // background-color: aqua;
+                position: relative;
 
                 .SO-location {
-                    background-color: seagreen;
+                    // background-color: seagreen;
                     display: flex;
                     margin-bottom: 20px;  
                     position: relative;      
@@ -80,37 +81,94 @@
 
                 .SO-quotes-font {
                     width: 285px;
-                    background-color: deepskyblue;
+                    // background-color: deepskyblue;
                     height: 120px;
                 }
                 
-                
+                .SO-learn-more {
+                    width: 122px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    background-color: $site-blue;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    border-radius: 30px;
+                }
             }
         }
 
-        // .SO-p2 {
-        //     width: 670px;
-        //     height: 150px;
-        //     background-color: burlywood;
-        //     position: relative;
-        //     margin-top: 60px;
+        .SO-p2 {
+            width: 510px;
+            min-height: 150px;
+            // background-color: burlywood;
+            display: flex;
+            // align-items: center;
+            justify-content: space-between;
+            margin-top: 50px;
 
-        //     .SO-p2-img {
-        //         width: 199px;
-        //         height: 287px;
-        //         background-image: url(../images/special-offer-02.jpg);
-        //         background-position: center;
-        //         background-repeat: no-repeat;
-        //         background-size: cover;
-        //     }
+            .SO-p2-img {
+                width: 199px;
+                height: 287px;
+                background-image: url(../images/special-offer-02.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .SO-p-quote {
+                // background-color: aqua;
+                position: relative;
 
-        //     .SO-p-quote {
-        //         width: 385px;
-        //         position: absolute;
-        //         top: 0px;
-        //         right: 0px;
-        //     }
-        // }
+                .SO-location {
+                    // background-color: seagreen;
+                    display: flex;
+                    margin-bottom: 20px;  
+                    position: relative;      
+        
+                    .SO2-place {
+                        width: 178px;
+                        height: 40px;
+                        border-bottom: 2px solid #000;
+                        color: #000;
+                        font-size: 30px;
+                        font-family: GScond;
+                    }
+        
+                    .SO-perOff2 {
+                        height: 24px;
+                        width: 60px;
+                        font-size: 20px;
+                        font-family: GScond;
+                        color: $site-orange;
+                        position: absolute;
+                        left: 190px;
+                        top: 7px;
+                        // background-color: cornflowerblue;
+                    }
+                }
 
+                .SO-quotes-font {
+                    width: 285px;
+                    // background-color: deepskyblue;
+                    height: 120px;
+                }
+                
+                .SO-learn-more {
+                    width: 122px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    background-color: $site-blue;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    border-radius: 30px;
+                }
+            }
+        }
     }
 }
