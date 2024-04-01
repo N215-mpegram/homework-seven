@@ -746,6 +746,10 @@ footer .footer-content .socials .socialIcons {
   font-family: PnCONthin;
   src: url(../fonts/FontsFree-Net-Proxima-Nova-Cond-Thin.otf);
 }
+@font-face {
+  font-family: GSbold;
+  src: url(../fonts/Gill\ Sans\ Bold.otf);
+}
 .Nav-White {
   border-bottom: 2px solid #fff;
   color: #fff;
@@ -1591,6 +1595,84 @@ footer .footer-content .socials .socialIcons {
   }
   .special-offers .SO-p2 .SO-quotes-font {
     margin-bottom: 60px;
+  }
+}
+.blog {
+  max-width: 980px;
+  min-height: 800px;
+  margin: auto;
+  margin-top: 60px;
+}
+.blog .blog-title {
+  min-height: 30px;
+  border-bottom: 2px solid #000;
+  width: 125px;
+  margin-bottom: 32px;
+}
+.blog .blog-title .blog-title-font {
+  height: 35px;
+  color: #000;
+  font-size: 38px;
+  font-family: GScond;
+}
+.blog .blog-1 {
+  height: 375px;
+  display: flex;
+  max-width: 980px;
+  margin-bottom: 100px;
+}
+.blog .blog-1 .blog-date {
+  width: 60px;
+  height: 60px;
+  background-color: #79ADDC;
+  position: relative;
+}
+.blog .blog-1 .blog-date .blog-date-font1 {
+  color: #ffffff;
+  font-family: GSbold;
+  font-size: 22px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 9px;
+}
+.blog .blog-1 .blog-date .blog-date-font2 {
+  color: #ffffff;
+  font-family: GSlight;
+  font-size: 12px;
+  margin: 0 auto;
+  text-align: center;
+}
+.blog .blog-1 .blog-info {
+  min-height: 350px;
+  width: 100%;
+  margin-left: 20px;
+  margin-left: 20px;
+}
+.blog .blog-1 .blog-info .blog-img {
+  width: 100%;
+  height: 259px;
+  background-image: url(../images/blog.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blog .blog-1 .blog-info .blog-info-para .blog-ip-title {
+  font-family: GSmedreg;
+  font-size: 15px;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.blog .blog-1 .blog-info .blog-info-para .blog-ip-para {
+  font-family: GSmedreg;
+  font-size: 13px;
+  color: #79ADDC;
+  max-width: 380px;
+}
+
+@media all and (max-width: 1000px) {
+  .blog {
+    max-width: 90%;
   }
 }
 
