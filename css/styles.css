@@ -1675,5 +1675,106 @@ footer .footer-content .socials .socialIcons {
     max-width: 90%;
   }
 }
+.contact {
+  max-width: 980px;
+  min-height: 500px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+.contact .contact-title {
+  min-height: 30px;
+  border-bottom: 2px solid #000;
+  width: 170px;
+  margin-bottom: 32px;
+}
+.contact .contact-title .contact-title-font {
+  height: 35px;
+  color: #000;
+  font-size: 38px;
+  font-family: GScond;
+}
+.contact .contact-content {
+  max-width: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.contact .contact-content .contact-form {
+  max-width: 529px;
+  min-height: 400px;
+  margin-left: 50px;
+}
+.contact .contact-content .contact-form .contact-input-1 {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 21px;
+}
+.contact .contact-content .contact-form .contact-input-2 {
+  width: 100%;
+  height: 199px;
+  margin-bottom: 21px;
+  padding-bottom: 140px;
+}
+.contact .contact-content .contact-form input {
+  font-size: 18px;
+  font-family: GSmedreg;
+  padding-left: 20px;
+  background-color: #F5F5F5;
+  color: gray;
+  border: none;
+}
+.contact .contact-content .contact-form .contact-button {
+  width: 167px;
+  height: 60px;
+  text-align: center;
+  background-color: #79ADDC;
+  color: #ffffff;
+  font-family: GSmedreg;
+  font-size: 16px;
+  padding-top: 20px;
+}
+.contact .contact-content .contact-map {
+  max-width: 400px;
+  height: 640px;
+}
+.contact .contact-content .contact-map .map-img {
+  width: 400px;
+  height: 442px;
+  background-image: url(../images/travel-fly-map.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact .contact-content .contact-map .map-info {
+  color: #000;
+  font-family: GSlight;
+  font-size: 18px;
+  margin-top: 34px;
+  line-height: 8px;
+}
+
+@media all and (max-width: 1000px) {
+  .contact {
+    max-width: 90%;
+  }
+}
+@media all and (max-width: 700px) {
+  .contact .contact-content {
+    flex-direction: column;
+  }
+  .contact .contact-content .contact-form {
+    max-width: 100%;
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+  .contact .contact-content .contact-map {
+    max-width: 100%;
+  }
+  .contact .contact-content .contact-map .map-img {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
